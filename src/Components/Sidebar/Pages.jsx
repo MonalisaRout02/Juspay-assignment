@@ -2,7 +2,7 @@ import DropdownItem from "./DropdownItem";
 import "../../App.css";
 import { useContext } from "react";
 import { ThemeContext } from "../ThemeContext/ThemeContext";
-import account from "../../../public/assets/account.svg";
+import account from "../../../public/assets/Account.svg";
 import UserProfile from "../../../public/assets/UserProfile.svg";
 import corporate from "../../../public/assets/Corporate.svg";
 import blog from "../../../public/assets/Blog.svg";
