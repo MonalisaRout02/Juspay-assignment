@@ -78,3 +78,29 @@ The production-ready files will be in the `dist` directory.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+
+## Challenges and Improvements
+
+### Challenges Faced
+
+1. **Graph Customization**: Customizing the graphs to match the exact specifications from the Figma design was time-consuming and required detailed adjustments in styling and formatting, ensuring interactivity while aligning with the design.
+  
+2. **Dark/Light Mode Toggle**: Implementing a seamless toggle between dark and light modes was challenging, as it required syncing CSS variables across components to maintain a visually consistent interface during transitions.
+  
+3. **Order List Table**: Creating a responsive and functional order list table that could handle large datasets, including sorting, filtering, and pagination, proved to be time-consuming and complex.
+
+### Improvements Made
+
+1. **Graph Refinement**: After several iterations, the graphs were refined for better responsiveness and visual accuracy, achieving a more fluid user experience.
+  
+2. **Smooth Mode Toggle**: The dark/light mode toggle was improved by using CSS transitions, making the switch more seamless and visually appealing.
+  
+3. **Table Optimization**: Lazy loading and additional sorting/filtering features were implemented to enhance performance and usability, especially with large datasets.
+
+### Conclusion
+
+Despite the challenges faced, iterative testing and refinements helped create a functional, user-friendly dashboard that meets the design goals and provides a seamless user experience.
+
+
