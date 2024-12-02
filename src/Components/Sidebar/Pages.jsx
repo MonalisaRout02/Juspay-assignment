@@ -4,9 +4,9 @@ import { useContext } from "react";
 import { ThemeContext } from "../ThemeContext/ThemeContext";
 import account from "../../../public/assets/account.svg";
 import UserProfile from "../../../public/assets/UserProfile.svg";
-import corporate from "../../../public/assets/corporate.svg";
-import blog from "../../../public/assets/blog.svg";
-import social from "../../../public/assets/social.svg";
+import corporate from "../../../public/assets/Corporate.svg";
+import blog from "../../../public/assets/Blog.svg";
+import social from "../../../public/assets/Social.svg";
 
 const pagesData = [
   {
