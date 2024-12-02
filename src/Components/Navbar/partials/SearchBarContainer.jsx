@@ -6,7 +6,7 @@ import { ThemeContext } from "../../ThemeContext/ThemeContext.jsx";
 import IconSet from "../../../../public/assets/IconSet.svg";
 import IconSet_1 from "../../../../public/assets/IconSet-1.svg";
 import IconSet_2 from "../../../../public/assets/IconSet-2.svg";
-import IconSet3 from "../../../../public/assets/IconSet3.svg";
+import IconSet_3 from "../../../../public/assets/IconSet3.svg";
 const SearchBarContainer = () => {
 
   const { toggleRight, toggleSetterRight } = useContext(ToggleRightContext);
@@ -29,7 +29,7 @@ const SearchBarContainer = () => {
           <img src= {IconSet_2} alt="bell" />
         </button>
         <button className="icon-button" onClick={handleRightToggle}>
-          <img src={IconSet3} alt="sidebar" />
+          <img src={IconSet_3} alt="sidebar" />
         </button>
       </div>
     </div>
