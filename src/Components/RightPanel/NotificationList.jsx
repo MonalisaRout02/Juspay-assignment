@@ -9,25 +9,25 @@ import SubscribeIcon from "../../../public/assets/SubscribeIcon.svg"
 const notifications = [
   {
     id: 1,
-    icon: {BugIcon},
+    icon: BugIcon,
     text: "You have a bug that needs to be fixed",
     time: "Just now",
   },
   {
     id: 2,
-    icon: {UserIcon},
+    icon: UserIcon,
     text: "New user registered",
     time: "59 minutes ago",
   },
   {
     id: 3,
-    icon: {BugIcon},
+    icon: BugIcon,
     text: "You have a bug that needs to be fixed",
     time: "59 minutes ago",
   },
   {
     id: 4,
-    icon: {SubscribeIcon},
+    icon: SubscribeIcon,
     text: "Andi Lane subscribed to you",
     time: "Today, 11:59 AM",
   },

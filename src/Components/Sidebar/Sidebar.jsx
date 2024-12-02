@@ -5,7 +5,7 @@ import Dashboards from './Dashboards';
 import FavoritesRecently from './FavoritesRecently';
 import Pages from './Pages';
 import { ThemeContext } from "../ThemeContext/ThemeContext";
-
+import ByeWind from "../../../public/assets/ByeWind.svg"
 
 const Sidebar = () => {
   const { toggle } = useContext(ToggleContext); // Accessing ToggleContext here
@@ -15,7 +15,7 @@ const Sidebar = () => {
       {toggle && (
         <div className='side-bar'>
           <div className="profile">
-            <img src="public/assets/ByeWind.svg" alt="profile" />
+            <img src={ByeWind} alt="profile" />
             <p className={`text-regular ${theme}`}>ByeWind</p>
           </div>
           <FavoritesRecently />

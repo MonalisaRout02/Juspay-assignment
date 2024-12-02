@@ -3,23 +3,27 @@ import "../../App.css";
 import { ThemeContext } from '../ThemeContext/ThemeContext';
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import eCommerce from "../../../public/assets/eCommerce.svg";
+import Projects from "../../../public/assets/Projects.svg";
+import BookOpen from "../../../public/assets/BookOpen.svg";
 const dashboardData = [
   {
-    icon: "assets/eCommerce.svg", // Corrected path
+    icon: eCommerce, // Corrected path
     label: "eCommerce",
     subItems: ["Orders", "Products", "Customers"],
   },
   {
-    icon: "assets/Projects.svg", // Corrected path
+    icon: Projects, // Corrected path
     label: "Projects",
     subItems: ["Ongoing", "Completed", "Archived"],
   },
   {
-    icon: "assets/BookOpen.svg", // Corrected path
+    icon: BookOpen, // Corrected path
     label: "Online Courses",
     subItems: ["My Courses", "Explore", "Wishlist"],
   },
 ];
+
 
 const Dashboards = () => {
   const {theme} = useContext(ThemeContext)

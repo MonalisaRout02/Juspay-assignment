@@ -11,28 +11,28 @@ const Card = () => {
       value: "3,781",
       change: "+11.01%",
       color: "#E3F5FF",
-      arrow: {arrowRise},
+      arrow: arrowRise,
     },
     {
       name: "Orders",
       value: "1,219",
       change: "-0.03%",
       color: "#F7F9FB",
-      arrow: {arrowDown},
+      arrow: arrowDown,
     },
     {
       name: "Revenue",
       value: "$695",
       change: "+15.03%",
       color: "#F7F9FB",
-      arrow: {arrowRise},
+      arrow: arrowRise,
     },
     {
       name: "Growth",
       value: "30.1%",
       change: "+6.08%",
       color: "#E5ECF6",
-      arrow: {arrowRise},
+      arrow: arrowRise,
     },
   ];
   const { theme, toggleTheme } = useContext(ThemeContext);

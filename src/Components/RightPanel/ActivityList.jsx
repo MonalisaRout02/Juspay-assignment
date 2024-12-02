@@ -8,31 +8,31 @@ import ProfileActivity from "../../../public/assets/ProfileActivity.svg";
 const activities = [
   {
     id: 1,
-    img: {ProfileActivity},
+    img: ProfileActivity,
     text: "You have a bug that needs...",
     time: "Just now",
   },
   {
     id: 2,
-    img: {ProfileActivity},
+    img: ProfileActivity,
     text: "Released a new version",
     time: "59 minutes ago",
   },
   {
     id: 3,
-    img: {ProfileActivity},
+    img: ProfileActivity,
     text: "Submitted a bug",
     time: "12 Hours ago",
   },
   {
     id: 4,
-    img:{ProfileActivity},
+    img:ProfileActivity,
     text: "You have a bug that needs...",
     time: "Just now",
   },
   {
     id: 5,
-    img:{ProfileActivity},
+    img:ProfileActivity,
     text: "Deleted a page in Project X",
     time: "Today, 11:59 AM",
   },
