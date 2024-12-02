@@ -1,6 +1,8 @@
 import "../../App.css";
 import { ThemeContext } from '../ThemeContext/ThemeContext';
 import { useContext } from "react";
+import arrowRise from "../../../public/assets/ArrowRise.svg";
+import arrowDown from "../../../public/assets/Arrowdown.svg";
 
 const Card = () => {
   const metrics = [
@@ -9,28 +11,28 @@ const Card = () => {
       value: "3,781",
       change: "+11.01%",
       color: "#E3F5FF",
-      arrow: "/public/assets/ArrowRise.svg",
+      arrow: {arrowRise},
     },
     {
       name: "Orders",
       value: "1,219",
       change: "-0.03%",
       color: "#F7F9FB",
-      arrow: "/public/assets/Arrowdown.svg",
+      arrow: {arrowDown},
     },
     {
       name: "Revenue",
       value: "$695",
       change: "+15.03%",
       color: "#F7F9FB",
-      arrow: "/public/assets/ArrowRise.svg",
+      arrow: {arrowRise},
     },
     {
       name: "Growth",
       value: "30.1%",
       change: "+6.08%",
       color: "#E5ECF6",
-      arrow: "/public/assets/ArrowRise.svg",
+      arrow: {arrowRise},
     },
   ];
   const { theme, toggleTheme } = useContext(ThemeContext);

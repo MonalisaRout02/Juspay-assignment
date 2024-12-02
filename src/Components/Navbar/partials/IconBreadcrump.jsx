@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import "../../../App.css";
 import { ThemeContext } from "../../ThemeContext/ThemeContext";
+import iconSet3 from "../../../../public/assets/iconSet3.svg";
+import star from "../../../../public/assets/Star.svg";
 
 import {
   ToggleContext,
@@ -22,10 +24,10 @@ const IconBreadcrump = () => {
   return (
     <div className="icon-breadcrump">
       <button className="icon-button" onClick={handleToggle}>
-        <img src="/public/assets/IconSet3.svg" alt="theme-switcher" />
+        <img src = {iconSet3} alt="theme-switcher" />
       </button>
       <button className="icon-button">
-        <img src="/public/assets/Star.svg" alt="theme-switcher" />
+        <img src= {star} alt="theme-switcher" />
       </button>
 
       <nav className="breadcrumb">

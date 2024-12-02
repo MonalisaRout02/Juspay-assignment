@@ -7,6 +7,11 @@ import { Checkbox } from './Checkbox';
 import { Data } from './TableData';
 import { GlobalFilter } from './GlobalFilter';
 import { ThemeContext} from '../ThemeContext/ThemeContext'; // Import the theme context
+import ArrowLineLeft from "../../../public/assets/ArrowLineLeft.svg";
+import Add from "../../../public/assets/Add.svg";
+import Lines from "../../../public/assets/Lines.svg";
+import ArrowsDownUp from "../../../public/assets/ArrowsDownUp.svg";
+import ArrowLineRight from "../../../public/assets/ArrowLineRight.svg";
 
 export const OrderList = ({ onSelectedRows }) => {
   const columns = useMemo(() => COLUMNS, []);
@@ -86,14 +91,14 @@ export const OrderList = ({ onSelectedRows }) => {
       ></h1>
       <div className={styles.topContainer}>
         <div className={styles.optionsBar}>
-          <button className={styles.tableBtn}>
-            <img src="./public/assets/Add.svg" />
+        <button className={styles.tableBtn}>
+            <img src={Add} />
           </button>
           <button className={styles.tableBtn}>
-            <img src="./public/assets/Lines.svg" />
+            <img src={Lines} />
           </button>
           <button className={styles.tableBtn}>
-            <img src="./public/assets/ArrowsDownUp.svg" />
+            <img src={ArrowsDownUp} />
           </button>
         </div>
         <div className={styles.rightContainte}>
@@ -142,7 +147,7 @@ export const OrderList = ({ onSelectedRows }) => {
             onClick={previousPage}
             disabled={!canPreviousPage}
           >
-            <img style={{ margin: '0px' }} src="./public/assets/ArrowLineLeft.svg" />
+            <img style={{ margin: '0px' }} src={ArrowLineLeft} />
           </button>
           {pageOptions.map((pageNum) => (
             <button
@@ -158,7 +163,7 @@ export const OrderList = ({ onSelectedRows }) => {
             onClick={nextPage}
             disabled={!canNextPage}
           >
-            <img style={{ margin: '0px' }} src="./public/assets/ArrowLineRight.svg" />
+            <img style={{ margin: '0px' }} src={ArrowLineRight} />
           </button>
         </div>
       </div>

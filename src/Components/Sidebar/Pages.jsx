@@ -3,10 +3,14 @@ import "../../App.css";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { ThemeContext } from "../ThemeContext/ThemeContext";
-
+import account from "../../../public/assets/account.svg";
+import UserProfile from "../../../public/assets/UserProfile.svg";
+import corporate from "../../../public/assets/corporate.svg";
+import blog from "../../../public/assets/blog.svg";
+import social from "../../../public/assets/social.svg";
 const pagesData = [
     {
-      icon: "/public/assets/UserProfile.svg", // Path to the SVG for "User Profile"
+      icon: {UserProfile}, // Path to the SVG for "User Profile"
       label: "User Profile",
       subItems: [
         "Overview",
@@ -17,22 +21,22 @@ const pagesData = [
       ],
     },
     {
-      icon: "/public/assets/account.svg", // Path to the SVG for "Account"
+      icon: {account}, // Path to the SVG for "Account"
       label: "Account",
       subItems: ["Settings", "Billing Info", "Security"],
     },
     {
-      icon: "/public/assets/corporate.svg", // Path to the SVG for "Corporate"
+      icon: {corporate}, // Path to the SVG for "Corporate"
       label: "Corporate",
       subItems: ["Teams", "Policies"],
     },
     {
-      icon: "/public/assets/blog.svg", // Path to the SVG for "Blog"
+      icon: {blog}, // Path to the SVG for "Blog"
       label: "Blog",
       subItems: ["Latest Posts", "Archive"],
     },
     {
-      icon: "/public/assets/social.svg", // Path to the SVG for "Social"
+      icon: {social}, // Path to the SVG for "Social"
       label: "Social",
       subItems: ["Messages", "Notifications"],
     },

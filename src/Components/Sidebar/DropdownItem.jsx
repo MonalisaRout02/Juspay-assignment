@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../../App.css";
 import { useContext } from "react";
 import { ThemeContext } from "../ThemeContext/ThemeContext";
+import Dropdown from "../../../public/assets/Dropdown.svg"
 
 const DropdownItem = ({ icon, label, subItems }) => {
   const [open, setOpen] = useState(false);
@@ -13,7 +14,7 @@ const DropdownItem = ({ icon, label, subItems }) => {
   return (
     <div className="dropdown-item">
       <div className="dropdown-header" onClick={onClickHandler}>
-        <img style={{marginLeft :'0px'}} src="public/assets/Dropdown.svg" alt="dropdown-arrow" />
+        <img style={{marginLeft :'0px'}} src={Dropdown} alt="dropdown-arrow" />
  
           <img style={{width:'20px', height:'20px', margin:'0px'}}src={icon} alt={label} />
           <p className={`text-regular ${theme}`}>{label}</p>

@@ -2,7 +2,6 @@ import DropdownItem from "./DropdownItem";
 import "../../App.css";
 import { ThemeContext } from '../ThemeContext/ThemeContext';
 import { useContext } from "react";
-import ChartPieSlice from "../../../public/assets/ChartPieSlice.svg";
 import { useNavigate } from "react-router-dom";
 const dashboardData = [
   {
@@ -31,7 +30,7 @@ const Dashboards = () => {
       <div className="dashboard-content">
         <li>
           <div className="first-item" style={{cursor:"pointer"}}  onClick={ () => navigate("/")}>
-            <img src={ChartPieSlice} alt="default" />
+            <img src="assets/ChartPieSlice.svg" alt="default" />
             <p className={`text-regular ${theme}`}>Default</p>
           </div>
         
