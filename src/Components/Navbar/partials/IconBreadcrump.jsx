@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import "../../../App.css";
 import { ThemeContext } from "../../ThemeContext/ThemeContext";
-import iconSet3 from "../../../../public/assets/iconSet3.svg";
+import iconSet_3 from "../../../../public/assets/iconSet3.svg";
 import star from "../../../../public/assets/Star.svg";
 
 import {
@@ -24,7 +24,7 @@ const IconBreadcrump = () => {
   return (
     <div className="icon-breadcrump">
       <button className="icon-button" onClick={handleToggle}>
-        <img src = {iconSet3} alt="theme-switcher" />
+        <img src = {iconSet_3} alt="theme-switcher" />
       </button>
       <button className="icon-button">
         <img src= {star} alt="theme-switcher" />
