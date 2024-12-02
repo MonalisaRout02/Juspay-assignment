@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import "../../../App.css";
 import { ThemeContext } from "../../ThemeContext/ThemeContext";
-import iconSet_3 from "../../../../public/assets/iconSet3.svg";
+import iconSet_3 from "../../../../public/assets/IconSet3.svg";
 import star from "../../../../public/assets/Star.svg";
 
 import {
