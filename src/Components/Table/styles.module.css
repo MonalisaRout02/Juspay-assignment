@@ -1,0 +1,204 @@
+.table{
+  margin: 10px 10px;
+}
+
+.topContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F8F9FB;
+  height: fit-content;
+  padding: 4px 4px;
+  border-radius: 8px;
+}
+
+.rightContainte{
+  align-items: center;
+  display: flex;
+
+}
+
+.optionsBar{
+  display: flex;
+  flex-direction: row;
+  gap:4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableSearch{
+  display: flex;
+  align-items: center;
+  height:28px;
+  border-radius: 8px;
+  border: 1px solid #E8E9EB;
+  background-color: #FAFBFD;
+  /* margin:4px 4px; */
+  gap:8px;
+  padding:8px 4px;
+
+}
+.searchInput{
+  border:none;
+  font-size: 14px;
+  background-color: #FAFBFD;
+  
+}
+input:focus {
+  border: none;         
+  outline: none;        
+}
+.fullTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 12px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.fullTable th {
+  color: #BFBFBF;
+  padding: 5px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff66;
+  width: 116px;
+  font-weight: 400;
+  word-wrap: break-word;
+  white-space: normal;
+  height: 40px;
+}
+
+.fullTable tr td:first-child,
+.fullTable tr th:first-child {
+  width: 24px;
+  text-align: left;
+  padding: 4px;
+}
+
+/* Light Theme Row Styles */
+.lightRow {
+  background-color: #fff;
+  color: black;
+}
+
+.lightSelectedRow {
+  background-color: #fff;
+  color: white;
+}
+.lightRow:hover {
+  background-color: #F8F9FB;
+}
+
+/* Dark Theme Row Styles */
+.darkRow {
+  background-color: #1c1c1c;
+  color: white;
+}
+.darkSelectedRow {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.darkRow:hover {
+  background-color: #272727;
+}
+
+
+.fullTable td {
+  padding: 10px 10px;
+  border-bottom: 1px solid #ffffff66;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  /* Allow long words to break and wrap onto the next line */
+  white-space: normal;
+  /* Ensure text can wrap and doesn’t stay in a single line */
+  max-width: 200px;
+  /* You can adjust this to a preferred max width */
+  word-break: break-word;
+  /* Break words that are too long */
+  height: auto;
+}
+
+
+.fullTable tr:hover {
+  background-color: #F8F9FB;
+}
+.selectedRow {
+  background-color: #d8d8d8;
+  color: #000;
+  }
+
+  /* Hide checkbox by default */
+.custom-checkbox {
+  display: none;
+}
+
+/* Show checkbox on hover */
+.tableRow:hover .custom-checkbox {
+  display: inline-block;
+}
+
+/* Styling for checkbox */
+.custom-checkbox {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #DFE0E2;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+}
+
+.tableBtn{
+  background-color: #F8F9FB;
+  border:none;
+
+}
+.bottomContainter{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.paginationContainer{
+  display: flex;
+  margin:10px 10px;
+  gap:4px;
+}
+.pageIndexButton{
+  border:none;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 24px;
+  height:24px;
+}
+
+.activePage{
+  border:none;
+  background-color: #F3F3F3;
+  width: 24px;
+  height:24px;
+}
+
+.nextBtn, .previousBtn{
+  border: none;
+  /* padding:4px 4px; */
+  background-color: #fff;
+}
+
+tbody tr td{
+  
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}

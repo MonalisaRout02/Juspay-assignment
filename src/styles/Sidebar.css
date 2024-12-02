@@ -1,0 +1,123 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .profile{
+    display: flex;
+    padding: 4px;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .side-bar{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border-right: 1px solid #1C1C1C1A;
+  }
+  .favourites-recently{
+    display: flex;
+    
+    flex-direction: column;
+    gap:4px;
+    padding: 4px 8px;
+    padding-bottom: 12px;
+    
+  }
+
+  .tabs{
+    display: flex;
+    gap:24px;
+   
+  }
+  .favourites-recently ul li{
+    list-style-type: disc; 
+    list-style-position: inside;
+   
+  }
+  ul li::marker {
+    color: #1C1C1C33; 
+  } 
+
+  .text-regular{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  
+  }
+  .tab-text{
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color:  #1C1C1C33;
+      cursor: pointer;
+
+  }
+  .tab-text-active{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  #1C1C1C66;
+    cursor: pointer;
+    
+  }
+
+  .text-light{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  #1C1C1C66;
+    cursor: pointer;
+
+}
+.first-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:8px;
+  border-radius: 8px;
+  background-color: #1C1C1C0D;
+  align-items: center;
+ 
+}
+.dashboard-content li{
+  list-style-type: none
+}
+.dropdown-header{
+  display: flex;
+  gap:4px;
+  align-items: center;
+}
+.dropdown-item{
+  
+  display: flex;
+  flex-direction: column;
+ 
+}
+.drop-down{
+  display: flex;
+  gap:4px;
+  flex-direction: column;
+  padding-left: 56px;
+ 
+}
+
+.drop-down-itemss{
+  height:32px;
+  align-items: center;
+  align-content: center;
+} */

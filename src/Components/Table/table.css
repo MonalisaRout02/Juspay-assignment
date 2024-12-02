@@ -1,0 +1,70 @@
+/* Container for circle and status text */
+.statusContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Space between circle and text */
+}
+
+/* Circle style */
+.circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+/* Status-specific colors */
+.statusInProgress {
+    background-color: #A6A4ED;
+    /* Blue for In Progress */
+}
+
+.statusComplete {
+    background-color: #ADE0CF;
+    /* Green for Complete */
+}
+
+.statusPending {
+    background-color: #BFE1F3;
+    /* Yellow for Pending */
+}
+
+.statusApproved {
+    background-color: #F3EAAC;
+    /* Cyan for Approved */
+}
+
+.statusRejected {
+    background-color: #A0A1A3;
+    /* Red for Rejected */
+}
+
+.statusDefault {
+    background-color: #6c757d;
+    /* Grey for default */
+}
+
+.statusInProgressText {
+    color:#A6A4ED;
+}
+
+
+.statusCompleteText {
+    color:#ADE0CF;
+}
+
+.statusPendingText {
+    color:#BFE1F3
+}
+
+.statusApprovedText {
+    color:#F3EAAC
+}
+
+.statusRejectedText {
+    color:#A0A1A3
+}
+
+.statusDefaultText {
+    color:#007bff
+}
