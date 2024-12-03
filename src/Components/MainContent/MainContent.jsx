@@ -13,7 +13,7 @@ const MainContent = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return (
       <div className="main-content">
-          <h1 className={`text-semibold ${theme}`}>ecommerce</h1>
+          <h1 styles={{paddingLeft:"20px",paddingTop:"20px"}}className={`text-semibold ${theme}`}>ecommerce</h1>
           <div className='main-charts'>
               {/* Row 1 */}
               <div className="row1">
